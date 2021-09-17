@@ -4,9 +4,9 @@ def main():
     num2 = int(input('Give the second number:'))
     
     if num1 > num2:
-        print(str(num1) + ' is bigger than ' + str(num2))
+        print('Greater number is: ' + str(num1))
     elif num1 < num2:
-        print(str(num2) + ' is bigger than ' + str(num1))
+        print('Greater number is: ' + str(num2))
     else:
         print('The numbers are equal!')
 
